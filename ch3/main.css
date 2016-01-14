@@ -1,0 +1,129 @@
+body
+{
+  font-family:arial,verdana;
+  font-size:12px;
+  margin: 0px auto;
+  width: 900px;
+}
+div.container
+{
+  border: 1px solid #000;
+  float:left;
+  margin:10px auto 0;
+  padding:10px;
+  width: 100%;
+}
+.header
+{
+  height: 100px; border: 1px solid;
+}
+#logo
+{
+  border: 1px solid #000000;
+  float: left;
+  font-weight: bold;
+  height: 57px;
+  margin: 5px;
+  padding-top: 30px;
+  text-align: center;
+  width: 100px;
+}
+ul.topLinks
+{
+  float: right;
+  list-style: none outside none;
+  margin: 20px 20px 0 0;
+  padding: 0;
+  text-align: right;
+  width: 70%;
+}
+ul.topLinks li
+{
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  text-decoration: underline;
+  width: 15%;
+  cursor:pointer;
+}
+#startTour
+{
+  color: #ff0000;
+}
+.leftCol
+{
+  border: 1px solid #000;
+  float:left;
+  min-height:500px;
+  width:24%;
+}
+.rightCol
+{
+  border: 1px solid #000;
+  float: right;
+  min-height:690px;
+  width: 75%;
+}
+ul#menu {
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+ul#menu > li
+{
+  padding:10px 5px 10px 10px;
+  border-top: 1px solid #000;
+  cursor:pointer;
+  font-weight:bold;
+}
+ul#menu > li:last-child
+{
+  border-bottom: 1px solid #000;
+}
+#accordion
+{
+  width:80%;
+  float:left;
+  padding:10px 5px;
+}
+#cart
+{
+  border: 1px solid #000000;
+  float: right;
+  font-weight: bold;
+  height: 65px;
+  margin-right: 5px;
+  margin-top: 12px;
+  padding-top: 35px;
+  text-align: center;
+  width: 100px;
+}
+a
+{
+  text-decoration:none;
+}
+.submenu li
+{
+  padding:5px;
+}
+small
+{
+  font-weight:normal;
+}
+.empty
+{
+  height:150px;
+}
+footer
+{
+  border: 1px solid;
+  padding: 10px 0px;
+}
+#dialog
+{
+  display:none;
+}
+.clear
+{
+  clear:both;
+}
